@@ -1,0 +1,209 @@
+[
+  {
+      "_id": {
+          "$oid": "5ae5127912473b0d147c93d7"
+      },
+      "nome": "Ivanildo",
+      "cargo": "CEO - Chief Executive Officer",
+      "regiao": {
+          "cep": null,
+          "logradouro": null,
+          "numero": null,
+          "estado": null,
+          "cidade": "Sao Paulo",
+          "pais": "Brasil"
+      },
+      "empresaAtual": {
+          "$oid": "5ae1c0e958cd952c89b298b7"
+      },
+      "status": "N",
+      "redesSociais": [
+          {
+              "url": "linkedin.com/in/ivanildo-olegario-marques-a3881515/",
+              "tipo": "L"
+          }
+      ],
+      "dataInclusao": {
+          "$date": "2018-04-28T21:31:53.748Z"
+      },
+      "sobrenome": "Olegario Marques",
+      "emails": [
+          {
+              "email": "ivanildo.marques@marxconsulting.com.br",
+              "discovery": "N",
+              "percAcerto": 66,
+              "dataAlteracao": {
+                  "$date": "2018-05-28T14:31:47.458Z"
+              }
+          }
+      ],
+      "infoTecnica": {
+          "so": "Windows",
+          "browser": "Firefox"
+      }
+  },
+  {
+      "_id": {
+          "$oid": "6138b46063cdc4235a29aa36"
+      },
+      "nome": "Fernando",
+      "cargo": "Dono da Empresa",
+      "regiao": {
+          "cep": null,
+          "logradouro": null,
+          "numero": null,
+          "estado": null,
+          "cidade": "Sao Paulo",
+          "pais": "Brasil"
+      },
+      "empresaAtual": {
+          "$oid": "5ae1c0e958cd952c89b298b7"
+      },
+      "status": "N",
+      "redesSociais": [
+          {
+              "url": "linkedin.com/in/fernando-a3881515/",
+              "tipo": "L"
+          }
+      ],
+      "dataInclusao": {
+          "$date": "2018-04-28T21:31:53.748Z"
+      },
+      "sobrenome": "Batata Palha",
+      "emails": [
+          {
+              "email": "fernando.fernandes@marxconsulting.com.br",
+              "discovery": "N",
+              "percAcerto": 66,
+              "dataAlteracao": {
+                  "$date": "2018-05-28T14:31:47.458Z"
+              }
+          }
+      ],
+      "infoTecnica": {
+          "so": "Windows",
+          "browser": "Firefox"
+      }
+  },
+  {
+      "_id": {
+          "$oid": "5ae5127912473b0d147c98c4"
+      },
+      "nome": "Vinicius C",
+      "cargo": "Satanista",
+      "regiao": {
+          "cep": null,
+          "logradouro": null,
+          "numero": null,
+          "estado": null,
+          "cidade": "Sao Paulo",
+          "pais": "Brasil"
+      },
+      "empresaAtual": {
+          "$oid": "5ae1c0e958cd952c89b29694"
+      },
+      "status": "N",
+      "redesSociais": [
+          {
+              "url": "linkedin.com/in/vinicius-c-a3881515/",
+              "tipo": "L"
+          }
+      ],
+      "dataInclusao": {
+          "$date": "2018-04-28T21:31:53.748Z"
+      },
+      "sobrenome": "Gripe Suina",
+      "emails": [
+          {
+              "email": "vinicius@teste.com.br",
+              "discovery": "N",
+              "percAcerto": 66,
+              "dataAlteracao": {
+                  "$date": "2018-05-28T14:31:47.458Z"
+              }
+          }
+      ],
+      "infoTecnica": {
+          "so": "Windows",
+          "browser": "Firefox"
+      }
+  },
+  {
+      "_id": {
+          "$oid": "615f76d1208360ce462e954c"
+      },
+      "nome": "Gisele",
+      "cargo": "Satanista",
+      "regiao": {
+          "cep": null,
+          "logradouro": null,
+          "numero": null,
+          "estado": null,
+          "cidade": "Sao Paulo",
+          "pais": "Brasil"
+      },
+      "empresaAtual": {
+          "$oid": "615f7787208360ce462e95ba"
+      },
+      "status": "N",
+      "redesSociais": [
+          {
+              "url": "linkedin.com/in/vinicius-c-a3881515/",
+              "tipo": "L"
+          }
+      ],
+      "dataInclusao": "2018-04-28T21:31:53.748Z",
+      "sobrenome": "Rosa",
+      "emails": [
+          {
+              "email": "teste@sempreit.com.br",
+              "discovery": "N",
+              "percAcerto": 66,
+              "dataAlteracao": "2018-05-28T14:31:47.458Z"
+          }
+      ],
+      "infoTecnica": {
+          "so": "Windows",
+          "browser": "Firefox"
+      }
+  },
+  {
+      "_id": {
+          "$oid": "615f7b90208360ce462e9786"
+      },
+      "nome": "clayton",
+      "cargo": "Souza",
+      "regiao": {
+          "cep": null,
+          "logradouro": null,
+          "numero": null,
+          "estado": null,
+          "cidade": "Sao Paulo",
+          "pais": "Brasil"
+      },
+      "empresaAtual": {
+          "$oid": "615f7bfc208360ce462e97c5"
+      },
+      "status": "N",
+      "redesSociais": [
+          {
+              "url": "linkedin.com/in/vinicius-c-a3881515/",
+              "tipo": "L"
+          }
+      ],
+      "dataInclusao": "2018-04-28T21:31:53.748Z",
+      "sobrenome": "Rosa",
+      "emails": [
+          {
+              "email": "clayton.souza+1@ramper.com.br",
+              "discovery": "N",
+              "percAcerto": 66,
+              "dataAlteracao": "2018-05-28T14:31:47.458Z"
+          }
+      ],
+      "infoTecnica": {
+          "so": "Windows",
+          "browser": "Firefox"
+      }
+  }
+]

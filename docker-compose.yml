@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  #Implementação do serviço do mongodb
+
+  mongo-one:
+    build: ./
+    # image: mongodb
+    container_name: mongo_docker
+    env_file: .env
+    environment:
+      - MONGO_ONE_INITDB_ROOT_USERNAME=root
+      - MONGO_ONE_INITDB_ROOT_PASSWORD=root
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/db:/data/db
+    networks:
+      - net-work-defautl
+    command: [--auth]
+  mongo-two:
+    build: ./mongo-two
+    container_name: mongo_docker_two
+    env_file: .two.env
+    environment:
+      - MONGO_TWO_INITDB_ROOT_USERNAME=root
+      - MONGO_TWO_INITDB_ROOT_PASSWORD=root
+    ports:
+      - 27018:27017
+    volumes:
+      - ./mongo-two/data/db:/data/db
+    networks:
+      - net-work-defautl
+    command: [--auth]
+networks:
+  net-work-defautl:
+    driver: bridge
