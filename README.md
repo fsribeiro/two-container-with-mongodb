@@ -1,14 +1,14 @@
-Project of two doscker containers creating their seeds
+**Project of two docker containers creating their seeds
 
-Getting Started
+**Getting Started**
 Run comand docker-compose up
 
-Prerequisities
+**Prerequisities**
 In order to run this container you'll need docker installed and docker-compose.
 
 
-Container Parameters
-  File .env
+**Container Parameters**
+  **File .env**
     MONGO_ONE_INITDB_USERNAME=fisrt
     MONGO_ONE_INITDB_PASSWORD=fisrt
     MONGO_ONE_INITDB_DB=firts
@@ -16,7 +16,7 @@ Container Parameters
     MONGO_ONE_DOCKER_PORT=27017
     MONGO_ONE_URI=mongodb://${MONGO_ONE_INITDB_USERNAME}:${MONGO_ONE_INITDB_PASSWORD}@${MONGO_ONE_DOCKER_SERVICE}:${MONGO_ONE_DOCKER_PORT}/${MONGO_ONE_INITDB_DB}?authSource=${MONGO_ONE_INITDB_DB}&ssl=false
 
-  File .env.two
+  **File .env.two**
     MONGO_TWO_INITDB_USERNAME=last
     MONGO_TWO_INITDB_PASSWORD=last
     MONGO_TWO_INITDB_DB=last
