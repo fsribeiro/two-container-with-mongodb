@@ -21,6 +21,6 @@ MONGO_TWO_DOCKER_PORT=27018
 MONGO_TWO_URI=mongodb://${MONGO_TWO_INITDB_USERNAME}:${MONGO_TWO_INITDB_PASSWORD}@${MONGO_TWO_DOCKER_SERVICE}:${MONGO_TWO_DOCKER_PORT}/${MONGO_TWO_INITDB_DB}?authSource=${MONGO_TWO_INITDB_DB}&ssl=false
 ```
 ## **Getting Started**
+```bash
 Run comand docker-compose up
- 
 ```
